@@ -1,19 +1,19 @@
-# Elaborato Python - Progetto Curve
-**Autore:** Robert Octavian Timofte - VR429581
+Elaborato Python - Progetto Curve
+Autore: Robert Octavian Timofte - VR429581
 
-### Descrizione codice
+-- DESCRIZIONE CODICE -- 
 
 Il codice contiene diverse funzioni che permettono di disegnare le varie curve.  Nel main ci sono delle stampe accompagnate da operazioni di input che servono per impostare i valori che poi saranno usati dalle funzioni, delle quali ne viene eseguita una sola in base alla scelta dell'utente. Viene poi generata a schermo la curva e successivamente viene stampata su un file postscript (.eps).
 
-### Descrizione input/output ed esecuzione
+-- DESCRIZIONE INPUT/OUTPUT ED ESECUZIONE --
 
-In **input** viene prima chiesto all'utente di scegliere una curva tra quelle disponibili, poi viene chiesto il livello di profondità della curva e successivamente viene chiesto un colore da assegnare alla 'penna' che disegnerà la curva scelta.
+In INPUT viene prima chiesto all'utente di scegliere una curva tra quelle disponibili, poi viene chiesto il livello di profondità della curva e successivamente viene chiesto un colore da assegnare alla 'penna' che disegnerà la curva scelta.
 
-In **output** viene stampata la curva sia a schermo che su file.
+In OUTPUT viene stampata la curva sia a schermo che su file.
 
-In **esecuzione** il codice non richiede parametri passati a linea di comando, quindi basta eseguire il file sorgente ed inserire i valori scelti in base a quelli disponibili mostrati dalle rischieste di input.
+In ESECUZIONE il codice non richiede parametri passati a linea di comando, quindi basta eseguire il file sorgente ed inserire i valori scelti in base a quelli disponibili mostrati dalle rischieste di input.
 
-### Fonti materiale usato
+-- FONTI MATERIALE USATO --
 
 - http://www.valcon.it/python/albero/
 - https://it.wikipedia.org/wiki/Triangolo_di_Sierpi%C5%84ski
