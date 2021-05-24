@@ -40,17 +40,19 @@ def koch (lato, liv):
         t.fd(lato)
     else:
         koch(lato/3, liv-1)
-        t.lt(60)
+        t.lt(90)
         koch(lato/3, liv-1)
-        t.rt(120)
+        t.rt(90)
         koch(lato/3, liv-1)
-        t.lt(60)
+        t.rt(90)
+        koch(lato/3, liv-1)
+        t.lt(90)
         koch(lato/3, liv-1)
 
 def fioccoDiNeve (lato, liv):
-    for i in range(0,3):
+    for i in range(0,4):
         koch(lato,liv)
-        t.rt(120)
+        t.rt(90)
 
 def pitagora(ax, ay, bx, by, liv):
     if liv > 0:
@@ -114,7 +116,7 @@ if __name__ == '__main__':
     elif scelta == 3:
         t.pu()
         t.setx(-225)
-        t.sety(225)
+        t.sety(250)
         t.pd()
         fioccoDiNeve((LATO*liv)/2, liv)
     elif scelta == 4:
@@ -122,4 +124,7 @@ if __name__ == '__main__':
         pitagora(100, -500, -100, -500, liv)
 
     t.hideturtle()
+    ts = t.getscreen()
+    ts.getcanvas().postscript(file="output.eps")
+    
     window.exitonclick()
